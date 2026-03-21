@@ -1,0 +1,29 @@
+# Secrets & env
+.env
+*.env
+.env.*
+
+# OpenClaw internals
+.openclaw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv*/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# Sensitive memory (keep MEMORY.md local only)
+MEMORY.md
+memory/
+
+# Credentials
+*.key
+*.pem
+*.p12
